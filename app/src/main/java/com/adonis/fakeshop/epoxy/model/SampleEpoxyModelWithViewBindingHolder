@@ -1,0 +1,16 @@
+@SuppressLint("NonConstantResourceId")
+@EpoxyModelClass(layout = R.layout.layoutID)
+abstract class SampleClassModel : ViewBindingEpoxyModelWithHolder<SampleClassModelBinding>() {
+
+    @EpoxyAttribute lateinit var sampleAttribute : String
+    @EpoxyAttribute lateinit var sampleOnclick : () -> Unit
+
+    override fun CharacterFromEpisodeResponseModelBinding.bind() {
+        viewId.sampleAttribute(this@CharacterFromEpisodeResponseEpoxyModel.sampleAttribute)
+        viewId.setOnClickListener { sampleOnclick() }
+    }
+
+    override fun CharacterFromEpisodeResponseModelBinding.unbind() {
+        viewId.setOnClickListener(null) //unbind listener to epoxy model
+    }
+}

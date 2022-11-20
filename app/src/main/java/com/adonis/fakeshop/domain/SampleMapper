@@ -1,0 +1,12 @@
+object SampleMapper {
+
+    fun buildFrom(
+        response: SomeClass
+    ): SampleMapperModel {
+        return SampleMapperModel(
+            id = response.id,
+            image = response.image,
+            name = response.name,
+        )
+    }
+}
