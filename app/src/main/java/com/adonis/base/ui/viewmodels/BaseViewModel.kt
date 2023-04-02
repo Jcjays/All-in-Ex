@@ -1,7 +1,10 @@
 package com.adonis.base.ui.viewmodels
 
+import android.app.Activity
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
+import com.adonis.base.MainActivity
 import com.adonis.base.util.SingleLiveEvent
 import timber.log.Timber
 
@@ -23,9 +26,15 @@ open class BaseViewModel : ViewModel() {
     val showException: LiveData<String>
         get() = _showException
 
+    open fun observeCommonEvent(mainActivity: AppCompatActivity) {
+        showLoading.observe(mainActivity){
+            Timber.e("---> Loading")
+        }
+    }
+
     protected fun showLoading() {
         Timber.e("---> Mwa")
-        _showLoading.value = true
+        _showLoading.postValue(true)
     }
 
     protected fun hideLoading() {

@@ -1,5 +1,6 @@
 package com.adonis.base
 
+import android.widget.Toast
 import androidx.activity.viewModels
 import com.adonis.base.ui.base.BaseActivity
 import dagger.hilt.android.AndroidEntryPoint
@@ -14,6 +15,7 @@ class MainActivity : BaseActivity() {
 
     override fun initViews() {
         Timber.e("Im here")
+        viewModel.observeCommonEvent(this)
         viewModel.triggerLoading(true)
     }
 
