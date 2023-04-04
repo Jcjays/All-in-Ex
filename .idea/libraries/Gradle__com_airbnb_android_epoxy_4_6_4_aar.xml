@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.airbnb.android:epoxy:4.6.4@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/353ef4720cbef349d33e53d7441013d2/transformed/epoxy-4.6.4/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/df4259bf69f283320ad12968ab441778/transformed/epoxy-4.6.4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/353ef4720cbef349d33e53d7441013d2/transformed/epoxy-4.6.4/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/353ef4720cbef349d33e53d7441013d2/transformed/epoxy-4.6.4/res" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/353ef4720cbef349d33e53d7441013d2/transformed/epoxy-4.6.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/df4259bf69f283320ad12968ab441778/transformed/epoxy-4.6.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/df4259bf69f283320ad12968ab441778/transformed/epoxy-4.6.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/df4259bf69f283320ad12968ab441778/transformed/epoxy-4.6.4/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/modules-2/files-2.1/com.airbnb.android/epoxy/4.6.4/dcccfa5017e0ff047ac672d9549a6952f585151d/epoxy-4.6.4-javadoc.jar!/" />
