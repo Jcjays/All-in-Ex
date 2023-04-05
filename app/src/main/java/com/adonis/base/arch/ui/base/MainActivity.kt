@@ -17,8 +17,6 @@ class MainActivity : BaseActivity() {
 
     override fun getLayoutResourceId() = R.layout.activity_main
 
-    override fun observeCommonEvents() {}
-
     override fun initViews() {}
 
 }

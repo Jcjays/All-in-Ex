@@ -11,7 +11,6 @@ class MainRepository @Inject
 constructor(private val apiService: ApiService) : RepositoryService {
 
     override suspend fun getJoke(): Flow<ResponseHandler<Joke>> = flow{
-        Timber.e("Im here")
         runCatching {
             emit(ResponseHandler.Loading())
             apiService.getJoke()

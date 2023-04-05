@@ -6,33 +6,34 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
-import com.adonis.base.arch.ui.viewmodels.BaseViewModel
 
 
-abstract class BaseFragment : Fragment() {
+abstract class BaseFragment<T : ViewBinding> : Fragment() {
 
-    protected abstract val binding : ViewBinding
+    private var _binding: T? = null
 
-    protected abstract fun observeCommonEvents()
+    protected val binding get() = _binding!!
+
+    protected abstract val bindingInflater : (LayoutInflater) -> T
 
     protected abstract fun initViews(view: View, savedInstanceState: Bundle?)
-
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
+        _binding = bindingInflater.invoke(inflater)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        observeCommonEvents()
         initViews(view, savedInstanceState)
     }
 
-    fun observeCommonEvents(viewModel : BaseViewModel){
-        viewModel.observeCommonEvent(this)
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }
