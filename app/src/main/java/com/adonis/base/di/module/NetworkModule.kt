@@ -34,6 +34,13 @@ object NetworkModule {
             .connectionPool(ConnectionPool(5, 30, TimeUnit.SECONDS))
             .retryOnConnectionFailure(true)
             .addInterceptor(logging)
+            .addInterceptor {
+                val request = it.request().newBuilder()
+                    .header("Accept", "application/json")
+                    .build()
+
+                it.proceed(request)
+            }
             .build()
     }
 

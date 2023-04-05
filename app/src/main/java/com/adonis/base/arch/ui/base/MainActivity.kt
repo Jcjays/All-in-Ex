@@ -1,4 +1,4 @@
-package com.adonis.base.ui.base
+package com.adonis.base.arch.ui.base
 
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration

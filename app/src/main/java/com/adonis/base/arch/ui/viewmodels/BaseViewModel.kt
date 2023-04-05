@@ -1,9 +1,9 @@
-package com.adonis.base.ui.viewmodels
+package com.adonis.base.arch.ui.viewmodels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.adonis.base.ui.base.BaseActivity
-import com.adonis.base.ui.base.BaseFragment
+import com.adonis.base.arch.ui.base.BaseActivity
+import com.adonis.base.arch.ui.base.BaseFragment
 import com.adonis.base.util.SingleLiveEvent
 
 open class BaseViewModel : ViewModel() {

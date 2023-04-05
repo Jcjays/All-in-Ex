@@ -1,4 +1,4 @@
-package com.adonis.base.ui.base
+package com.adonis.base.arch.ui.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
-import com.adonis.base.ui.viewmodels.BaseViewModel
+import com.adonis.base.arch.ui.viewmodels.BaseViewModel
+
 
 abstract class BaseFragment : Fragment() {
 

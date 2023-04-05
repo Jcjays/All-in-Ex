@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.adonis.base">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -15,7 +17,7 @@
         android:theme="@style/Theme.FakeShop"
         tools:targetApi="31">
         <activity
-            android:name="com.adonis.base.ui.base.MainActivity"
+            android:name="com.adonis.base.arch.ui.base.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

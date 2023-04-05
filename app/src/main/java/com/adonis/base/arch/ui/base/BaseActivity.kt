@@ -1,10 +1,10 @@
-package com.adonis.base.ui.base
+package com.adonis.base.arch.ui.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.adonis.base.extensions.showShortToast
-import com.adonis.base.ui.viewmodels.BaseViewModel
+import com.adonis.base.arch.ui.viewmodels.BaseViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
