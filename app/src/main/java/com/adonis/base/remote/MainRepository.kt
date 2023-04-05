@@ -4,7 +4,7 @@ import javax.inject.Inject
 
 class MainRepository
 @Inject
-constructor(private val apiService: ApiService) : DataService {
+constructor(private val apiService: ApiService) : RepositoryService {
 
 
 
