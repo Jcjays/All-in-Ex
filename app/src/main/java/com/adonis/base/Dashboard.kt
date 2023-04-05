@@ -1,18 +1,25 @@
 package com.adonis.base
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
+import androidx.viewbinding.ViewBinding
+import com.adonis.base.databinding.FragmentDashboardBinding
+import com.adonis.base.extensions.viewBinding
+import com.adonis.base.ui.base.BaseFragment
+import com.adonis.base.ui.viewmodels.SampleViewModel
 
-class Dashboard : Fragment() {
+class Dashboard : BaseFragment() {
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_dashboard, container, false)
+    override val binding: ViewBinding by viewBinding(FragmentDashboardBinding::inflate)
+
+    private val viewModel : SampleViewModel by activityViewModels()
+
+    override fun observeCommonEvents() {
+        observeCommonEvents(viewModel)
     }
 
+    override fun initViews(view: View, savedInstanceState: Bundle?) {
+
+    }
 }

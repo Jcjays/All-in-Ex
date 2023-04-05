@@ -165,7 +165,9 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/demoDebug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/demoDebug" isTestSource="false" generated="true" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/navigation-args/demo/debug" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/navigation-args/demo/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/navigation-args/demo/debug" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../app/src/debug" />
     <content url="file://$MODULE_DIR$/../../../app/src/demo" />
     <content url="file://$MODULE_DIR$/../../../app/src/demoDebug" />

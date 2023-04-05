@@ -3,8 +3,8 @@ package com.adonis.base.ui.viewmodels
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.adonis.base.ui.base.BaseActivity
+import com.adonis.base.ui.base.BaseFragment
 import com.adonis.base.util.SingleLiveEvent
-import timber.log.Timber
 
 open class BaseViewModel : ViewModel() {
 
@@ -24,13 +24,17 @@ open class BaseViewModel : ViewModel() {
     private val showException: LiveData<String>
         get() = _showException
 
-    open fun observeCommonEvent(activity: BaseActivity) {
+    /**
+     * Used for activities/fragment do NOT call in view models.
+     *
+     */
+    fun observeCommonEvent(activity: BaseActivity) {
         showLoading.observe(activity){
-            Timber.e("Loading")
+            activity.showLoading(it)
         }
 
         showError.observe(activity){
-
+            activity.showError(it)
         }
 
         showNoInternetConnection.observe(activity){
@@ -39,6 +43,26 @@ open class BaseViewModel : ViewModel() {
 
         showException.observe(activity){
 
+        }
+    }
+
+    fun observeCommonEvent(fragment: BaseFragment) {
+        (fragment.requireActivity() as BaseActivity).apply {
+            showLoading.observe(fragment.viewLifecycleOwner){
+                showLoading(it)
+            }
+
+            showError.observe(fragment.viewLifecycleOwner){
+               showError(it)
+            }
+
+            showNoInternetConnection.observe(fragment.viewLifecycleOwner){
+                showNoInternetConnection()
+            }
+
+            showException.observe(fragment.viewLifecycleOwner){
+                showException(it)
+            }
         }
     }
 

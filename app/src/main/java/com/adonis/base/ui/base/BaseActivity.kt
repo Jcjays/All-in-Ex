@@ -1,9 +1,9 @@
 package com.adonis.base.ui.base
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.adonis.base.extensions.showShortToast
 import com.adonis.base.ui.viewmodels.BaseViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -14,7 +14,7 @@ abstract class BaseActivity : AppCompatActivity() {
 
     protected abstract fun getLayoutResourceId() : Int
 
-    protected abstract fun observeCommonEvent()
+    protected abstract fun observeCommonEvents()
 
     protected abstract fun initViews()
 
@@ -23,18 +23,26 @@ abstract class BaseActivity : AppCompatActivity() {
         setContentView(getLayoutResourceId())
         baseViewModel = ViewModelProvider(this)[BaseViewModel::class.java]
         initViews()
-        observeCommonEvent()
+        observeCommonEvents()
     }
 
-    open fun showError(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    fun observeCommonEvents(viewModel: BaseViewModel){
+        viewModel.observeCommonEvent(this)
     }
 
-    open fun showNoInternetConnection() {
-        Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show()
+    fun showLoading(isLoading: Boolean){
+        showShortToast("Loading")
     }
 
-    open fun showException(exception: Exception) {
-        Toast.makeText(this, exception.message, Toast.LENGTH_SHORT).show()
+    fun showError(message: String) {
+        showShortToast(message)
+    }
+
+    fun showNoInternetConnection() {
+        showShortToast("No internet connection")
+    }
+
+    fun showException(message: String) {
+        showShortToast(message)
     }
 }

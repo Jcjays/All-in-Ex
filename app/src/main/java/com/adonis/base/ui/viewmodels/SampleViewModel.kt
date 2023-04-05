@@ -12,4 +12,8 @@ class SampleViewModel @Inject constructor(): BaseViewModel(){
         showLoading()
     }
 
+    fun triggerError(boolean : Boolean) = viewModelScope.launch{
+        showError("mama mo blue")
+    }
+
 }
