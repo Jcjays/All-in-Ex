@@ -11,6 +11,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.adonis.base.arch.ui.base.BaseFragment
 import com.adonis.base.arch.ui.viewmodels.SampleViewModel
 import com.adonis.base.databinding.FragmentDashboardBinding
+import com.adonis.base.extensions.showShortToast
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -29,11 +30,16 @@ class Dashboard : BaseFragment<FragmentDashboardBinding>() {
                 viewModel.jokeState.collectLatest {
                     binding.loading.isVisible = it.isLoading
                     binding.textView.text = it.data?.joke
-                    it.error
+
+                    it.exception?.let { message ->
+                        requireActivity().showShortToast(message)
+                    }
                 }
             }
         }
 
-        viewModel.getJoke()
+        binding.getJokeButton.setOnClickListener {
+            viewModel.getJoke()
+        }
     }
 }

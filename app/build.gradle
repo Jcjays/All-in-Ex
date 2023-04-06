@@ -102,8 +102,8 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 
-    //Dagger 2
-    def dagger_version = "2.44.2"
+    //Hilt
+    def dagger_version = "2.45"
     implementation "com.google.dagger:hilt-android:${dagger_version}"
     kapt "com.google.dagger:hilt-compiler:${dagger_version}"
 
