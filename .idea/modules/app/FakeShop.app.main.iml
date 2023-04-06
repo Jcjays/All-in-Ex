@@ -23,7 +23,7 @@
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/5308deddfaf9a011fc0addf4769a7023/transformed/navigation-ui-2.5.3-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/c6164ca0821bfe140e05e81d2724c45b/transformed/material-1.8.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/2d4efdbe95e81b1b60384dce1b8fb797/transformed/appcompat-1.6.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/e0f80f520bb348fe369ca548b72d59ba/transformed/hilt-android-2.44.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/d599371a6830656ae2f67f7d0afb9e1c/transformed/hilt-android-2.45-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/34d3992b5dfaec332c48dcd333e8cc79/transformed/viewpager2-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/e5142787a0c8600659699f4bd393f615/transformed/fragment-1.5.6-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/16d69fdf5ad3ac60a421e36311d32070/transformed/activity-1.7.0-api.jar</arg>
@@ -94,10 +94,10 @@
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.10/a61b182458550492c12aee66157d7b524a63a5ec/kotlin-stdlib-common-1.8.10.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/org.jetbrains/annotations/20.1.0/2fcd1f3225bca0c4a7bc931142076f8c1e80993f/annotations-20.1.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/3c04d9a07c64fd0d7939f66a0bd881de/transformed/constraintlayout-2.1.4-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/com.google.dagger/hilt-core/2.44.2/92996b5a78973b3e6813a7a07bbeee097b65a95c/hilt-core-2.44.2.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/com.google.dagger/dagger/2.44.2/5c4265ab0e8e6beca4391afd9cf7c432df6d5243/dagger-2.44.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/com.google.dagger/hilt-core/2.45/fa01d9cf7e908715668b6a946f35e03800d60bc7/hilt-core-2.45.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/com.google.dagger/dagger/2.45/f7e0def41c2dbb7f79613003ae4ee49f65dc2759/dagger-2.45.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/884193ff339af79e90f8fc31d15fe26d/transformed/dagger-lint-aar-2.44.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/6f7cb3fee173ba7ee398d66035f8de8a/transformed/dagger-lint-aar-2.45-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/modules-2/files-2.1/com.airbnb.android/epoxy-annotations/4.6.4/1f8a0efadf44917b19bc3701aeba39d676e30969/epoxy-annotations-4.6.4.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../../JDK/caches/transforms-3/28d7e8737b67933d4a18929e34492885/transformed/AppIntro-6.2.0-api.jar</arg>
@@ -204,9 +204,9 @@
     <orderEntry type="library" name="Gradle: com.squareup.moshi:moshi-kotlin:1.14.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.7.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:4.10.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.dagger:dagger:2.44.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:dagger:2.45" level="project" />
     <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.dagger:hilt-core:2.44.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:hilt-core:2.45" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.airbnb.android:epoxy-annotations:4.6.4" level="project" />
     <orderEntry type="library" name="Gradle: androidx.datastore:datastore-core:1.0.0" level="project" />
@@ -263,8 +263,8 @@
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-common-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-ui-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-ui:2.5.3@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.dagger:hilt-android:2.44.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.dagger:dagger-lint-aar:2.44.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:hilt-android:2.45@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:dagger-lint-aar:2.45@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.airbnb.android:epoxy:4.6.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.core:core-splashscreen:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.datastore:datastore-preferences:1.0.0@aar" level="project" />

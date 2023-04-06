@@ -29,11 +29,12 @@ class Dashboard : BaseFragment<FragmentDashboardBinding>() {
                 viewModel.jokeState.collectLatest {
                     binding.loading.isVisible = it.isLoading
                     binding.textView.text = it.data?.joke
-                    it.error
                 }
             }
         }
 
-        viewModel.getJoke()
+        binding.getJokeButton.setOnClickListener {
+            viewModel.getJoke()
+        }
     }
 }
