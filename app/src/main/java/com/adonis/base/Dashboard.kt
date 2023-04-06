@@ -11,9 +11,11 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.adonis.base.arch.ui.base.BaseFragment
 import com.adonis.base.arch.ui.viewmodels.SampleViewModel
 import com.adonis.base.databinding.FragmentDashboardBinding
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
+@AndroidEntryPoint
 class Dashboard : BaseFragment<FragmentDashboardBinding>() {
 
     private val viewModel : SampleViewModel by activityViewModels()
@@ -27,6 +29,7 @@ class Dashboard : BaseFragment<FragmentDashboardBinding>() {
                 viewModel.jokeState.collectLatest {
                     binding.loading.isVisible = it.isLoading
                     binding.textView.text = it.data?.joke
+                    it.error
                 }
             }
         }
