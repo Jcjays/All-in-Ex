@@ -2,4 +2,10 @@
     <string name="app_name">Base</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="track_your_spending">Track Your Spending</string>
+    <string name="allinex_helps_you_track_your_spending_to_have_a_accurate_analysis_if_your_spending_is_still_within_your_budget">AllinEx helps you track your spending to have a accurate analysis if your spending is still within your budget!</string>
+    <string name="allinex_provides_accurate_chart_of_your_total_spending_within_the_week_month_and_year">AllinEx provides accurate chart of your total spending within the week, month, and year!</string>
+    <string name="sync_to_all_your_devices">Sync to all your devices</string>
+    <string name="allinex_supports_log_in_with_google_facebook_apple_so_you_can_easily_get_your_data_across_all_your_devices">AllinEx supports log-in with google, facebook, apple so you can easily get your data across all your devices!</string>
+    <string name="data_charts">Data Charts</string>
 </resources>
