@@ -2,6 +2,7 @@ package com.adonis.base.arch.ui.base
 
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
 import com.adonis.base.R
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -12,11 +13,20 @@ class MainActivity : BaseActivity() {
 
     private val navController by lazy { navHostFragment.navController }
 
-    private val appBarConfig by lazy { AppBarConfiguration(setOf(R.id.dashboard), fallbackOnNavigateUpListener = ::onSupportNavigateUp) }
-
+    private val appBarConfig by lazy {
+        AppBarConfiguration(
+            setOf(R.id.dashboard),
+            fallbackOnNavigateUpListener = ::onSupportNavigateUp
+        )
+    }
 
     override fun getLayoutResourceId() = R.layout.activity_main
 
-    override fun initViews() {}
+    override fun initViews() {
+        setupActionBarWithNavController(navController, appBarConfig)
+
+
+
+    }
 
 }
