@@ -26,7 +26,6 @@ class MainActivity : BaseActivity() {
         setupActionBarWithNavController(navController, appBarConfig)
 
 
-
     }
 
 }

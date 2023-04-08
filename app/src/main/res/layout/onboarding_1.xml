@@ -9,7 +9,7 @@
         android:id="@+id/appCompatImageView"
         android:layout_width="wrap_content"
         android:layout_height="400dp"
-        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_xlarge"
         android:src="@drawable/ic_onboarding"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

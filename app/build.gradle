@@ -112,7 +112,7 @@ dependencies {
     kapt "com.airbnb.android:epoxy-processor:4.6.4"
 
     //Coroutines
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
 
     //SplashScreen
     implementation 'androidx.core:core-splashscreen:1.0.0'
