@@ -8,4 +8,9 @@
     <string name="sync_to_all_your_devices">Sync to all your devices</string>
     <string name="allinex_supports_log_in_with_google_facebook_apple_so_you_can_easily_get_your_data_across_all_your_devices">AllinEx supports log-in with google, facebook, apple so you can easily get your data across all your devices!</string>
     <string name="data_charts">Data Charts</string>
+    <string name="allinex">AllinEx</string>
+    <string name="easy_to_use_money_spending_tracker_app">Easy to use money spending tracker app</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="apple">Apple</string>
 </resources>

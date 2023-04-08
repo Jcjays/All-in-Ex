@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.appcompat:appcompat-resources:1.6.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/bdd9f2f3b2025f47eb451fd87abe43b1/transformed/appcompat-resources-1.6.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/bdd9f2f3b2025f47eb451fd87abe43b1/transformed/appcompat-resources-1.6.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/bdd9f2f3b2025f47eb451fd87abe43b1/transformed/appcompat-resources-1.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/2cf21ff64aa53ce78bf5406b5c60825a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/2cf21ff64aa53ce78bf5406b5c60825a/transformed/appcompat-resources-1.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/2cf21ff64aa53ce78bf5406b5c60825a/transformed/appcompat-resources-1.6.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

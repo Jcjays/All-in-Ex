@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.fragment:fragment-ktx:1.5.6@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/cea10e63dc54233f306cca9dcee3f5b2/transformed/fragment-ktx-1.5.6/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/cea10e63dc54233f306cca9dcee3f5b2/transformed/fragment-ktx-1.5.6/res" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/cea10e63dc54233f306cca9dcee3f5b2/transformed/fragment-ktx-1.5.6/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3c1f7b7d9001e52a0a59e7ff9a596800/transformed/fragment-ktx-1.5.6/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3c1f7b7d9001e52a0a59e7ff9a596800/transformed/fragment-ktx-1.5.6/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3c1f7b7d9001e52a0a59e7ff9a596800/transformed/fragment-ktx-1.5.6/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

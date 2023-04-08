@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.6.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/05d04dad5ebcf3f664dd780c8f8e7aad/transformed/lifecycle-runtime-2.6.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/05d04dad5ebcf3f664dd780c8f8e7aad/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/05d04dad5ebcf3f664dd780c8f8e7aad/transformed/lifecycle-runtime-2.6.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/611d38cc25c774e7a6a833d4cbe96d31/transformed/lifecycle-runtime-2.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/611d38cc25c774e7a6a833d4cbe96d31/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/611d38cc25c774e7a6a833d4cbe96d31/transformed/lifecycle-runtime-2.6.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,33 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_login_screen_background"
+    android:paddingHorizontal="@dimen/spacing_large"
     tools:context=".arch.ui.login.Dashboard">
 
-    <TextView
-        android:id="@+id/textView"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="@color/black"
-        android:text="Dashboard" />
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".20" />
 
-    <TextView
-        android:id="@+id/loading"
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="@color/black"
-        android:text="Loading" />
+        android:fontFamily="@font/open_sans_extrabold"
+        android:text="@string/allinex"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/getJokeButton"
-        android:layout_width="wrap_content"
-        android:layout_gravity="center"
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/easy_to_use_money_spending_tracker_app"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/google_login_button"
+        style="@style/OutlineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="Get joke"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:layout_height="wrap_content"/>
+        android:text="@string/google"
+        app:iconPadding="0dp"
+        app:icon="@drawable/ic_google"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView3" />
 
-</FrameLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/facebook_login_button"
+        style="@style/OutlineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:text="@string/facebook"
+        app:iconPadding="0dp"
+        app:icon="@drawable/ic_facebook_logo"
+        app:layout_constraintTop_toBottomOf="@+id/google_login_button" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/apple_login_button"
+        style="@style/OutlineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:text="@string/apple"
+        app:iconPadding="0dp"
+        app:icon="@drawable/ic_apple_logo"
+        app:layout_constraintTop_toBottomOf="@+id/facebook_login_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

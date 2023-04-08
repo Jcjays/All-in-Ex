@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime-testing:2.6.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/2a727307ab24b40cf6616c9164567021/transformed/lifecycle-runtime-testing-2.6.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/2a727307ab24b40cf6616c9164567021/transformed/lifecycle-runtime-testing-2.6.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/2a727307ab24b40cf6616c9164567021/transformed/lifecycle-runtime-testing-2.6.1/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/f6887d0d51ed13784e7d69146e5d0d8d/transformed/lifecycle-runtime-testing-2.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/f6887d0d51ed13784e7d69146e5d0d8d/transformed/lifecycle-runtime-testing-2.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/f6887d0d51ed13784e7d69146e5d0d8d/transformed/lifecycle-runtime-testing-2.6.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
