@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.6.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/89729f37328a1d700957d8140ba22a52/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/89729f37328a1d700957d8140ba22a52/transformed/lifecycle-runtime-ktx-2.6.1/res" />
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/89729f37328a1d700957d8140ba22a52/transformed/lifecycle-runtime-ktx-2.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/85f5ad58d03fa38d82126edd5d9e2bb9/transformed/lifecycle-runtime-ktx-2.6.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/85f5ad58d03fa38d82126edd5d9e2bb9/transformed/lifecycle-runtime-ktx-2.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/85f5ad58d03fa38d82126edd5d9e2bb9/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

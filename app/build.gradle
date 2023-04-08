@@ -16,7 +16,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.adonis.base"
+        applicationId "com.adonis.allinex"
         minSdk 26
         targetSdk 33
         versionCode 1
@@ -89,7 +89,8 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:31.4.0')
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'com.google.firebase:firebase-firestore-ktx'
-    implementation "com.google.android.gms:play-services-auth:20.5.0"
+    //noinspection GradleDependency
+    implementation "com.google.android.gms:play-services-auth:20.0.0"
 
     //Lifecycle Extensions
     def lifecycle_version = "2.6.1"

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.AppIntro:AppIntro:6.2.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/6437d9129c4efb9df03dcabf867d6c42/transformed/AppIntro-6.2.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/6437d9129c4efb9df03dcabf867d6c42/transformed/AppIntro-6.2.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/6437d9129c4efb9df03dcabf867d6c42/transformed/AppIntro-6.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/fefe731643eaa83144dea342130b9bbd/transformed/AppIntro-6.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/fefe731643eaa83144dea342130b9bbd/transformed/AppIntro-6.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/fefe731643eaa83144dea342130b9bbd/transformed/AppIntro-6.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

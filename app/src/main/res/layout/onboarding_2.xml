@@ -29,28 +29,17 @@
         app:layout_constraintTop_toBottomOf="@+id/appCompatImageView"
         tools:layout_editor_absoluteX="8dp" />
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView"
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="@dimen/spacing_large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView"
-        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.CardView.RoundedTop"
-        app:strokeColor="@color/black"
-        app:strokeWidth="1dp">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="@dimen/spacing_medium"
+        android:layout_marginTop="@dimen/spacing_xlarge"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/allinex_provides_accurate_chart_of_your_total_spending_within_the_week_month_and_year"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginHorizontal="@dimen/spacing_medium"
-            android:layout_marginTop="@dimen/spacing_xlarge"
-            android:fontFamily="@font/open_sans"
-            android:text="@string/allinex_provides_accurate_chart_of_your_total_spending_within_the_week_month_and_year"
-            android:textAlignment="center"
-            android:textSize="16sp" />
-
-    </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

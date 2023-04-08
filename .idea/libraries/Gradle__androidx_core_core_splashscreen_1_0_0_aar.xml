@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.core:core-splashscreen:1.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/fd6aecbcde7647476a0531125df4254f/transformed/core-splashscreen-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/fd6aecbcde7647476a0531125df4254f/transformed/core-splashscreen-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/fd6aecbcde7647476a0531125df4254f/transformed/core-splashscreen-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3ece726e50a3553ece1e9801a9795f57/transformed/core-splashscreen-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3ece726e50a3553ece1e9801a9795f57/transformed/core-splashscreen-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3ece726e50a3553ece1e9801a9795f57/transformed/core-splashscreen-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

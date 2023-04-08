@@ -2,7 +2,6 @@ package com.adonis.base.arch.ui.onboarding
 
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
@@ -35,10 +34,7 @@ class OnboardingActivity : AppIntro2() {
         setImmersiveMode()
         isSystemBackButtonLocked = true
         isSkipButtonEnabled = false
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            setIndicatorColor(getColor(R.color.teal_200) , getColor(R.color.black))
-        }
+        setIndicatorColor(getColor(R.color.teal_200) , getColor(R.color.black))
 
         addSlide(AppIntroCustomLayoutFragment.newInstance(R.layout.onboarding_1))
         addSlide(AppIntroCustomLayoutFragment.newInstance(R.layout.onboarding_2))

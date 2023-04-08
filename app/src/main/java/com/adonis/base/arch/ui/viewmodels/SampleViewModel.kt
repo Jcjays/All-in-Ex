@@ -6,6 +6,7 @@ import com.adonis.base.arch.domain.usecase.GetJokeUseCase
 import com.adonis.base.arch.model.remote.Joke
 import com.adonis.base.extensions.identifyError
 import com.adonis.base.util.ResponseHandler
+import com.google.firebase.auth.AuthCredential
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
@@ -34,6 +35,12 @@ class SampleViewModel @Inject constructor(
             }
         }
     }
+
+
+    fun firebaseSignInWithGoogle(googleCredential : AuthCredential){
+        
+    }
+
 }
 
 data class JokeStateWrapper(

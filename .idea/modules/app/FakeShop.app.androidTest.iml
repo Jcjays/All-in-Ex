@@ -14,113 +14,112 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>C:/JDK/caches/transforms-3/c87cfcee3434322407f80c9844af1cd6/transformed/junit-1.1.5-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/336db0815d304a7757a45fe562eaa992/transformed/espresso-core-3.5.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/8a91a07ee8b9c695a8fb45266f0ffe4a/transformed/navigation-testing-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/a530da7816168a0f94c8438cdc66514e/transformed/viewbinding-7.2.2-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/5c51a0d317acc2f4da4f2fa1db69118a/transformed/runner-1.5.2-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/08a936f25acee6d9288b28c0dff23110/transformed/junit-1.1.5-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/587f2a60f4373cb7dd866ab67cb70c01/transformed/espresso-core-3.5.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6f8a10479a35a9fa39d67124e0e352e9/transformed/navigation-testing-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ad756212eabfd8e999e665215715e6fa/transformed/viewbinding-7.2.2-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/d16a037a84f37b51e65391a5420d7b5a/transformed/runner-1.5.2-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/4df500bb3a310e1fc521e91ccff399d0/transformed/core-1.5.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/0934b405d2899846187d2f1f4042e5bd/transformed/navigation-ui-ktx-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/bf31ab04888ac32880fd5433d1249ca7/transformed/navigation-ui-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/5bee553c4e2e73543e939ca22b48998b/transformed/material-1.8.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/b0913d1477a9acd5980c9031d2a7f784/transformed/appcompat-1.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/740c16e63d372708a56bbd064a94c90b/transformed/hilt-android-2.45-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/b3b434e1dc19e4e1c39eb9532476ee61/transformed/shimmer-0.5.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/df06d0a21752b91c27e1dbe121bdc674/transformed/navigation-fragment-ktx-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/aeeb2132b9da04f7f5eca48ac6668da6/transformed/navigation-fragment-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/f0501ac06ee5e2321bcd32107e5c7167/transformed/fragment-ktx-1.5.6-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/a71a07a7710bbee1ef102558158cecd4/transformed/navigation-runtime-ktx-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/6d9e734ba6829c5c0a75687be1fa669b/transformed/navigation-runtime-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/74617cc865ee9d93b703e9bd18c28094/transformed/play-services-auth-20.5.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/5a76561982c61794511ee604227e9ce4/transformed/viewpager2-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/87c9f9d53d54a900721fb2f6fd271095/transformed/firebase-auth-ktx-21.2.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/9ce1fa9571966ab2897b2826bf2f0311/transformed/firebase-auth-21.2.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/d3f52e7af521c82f3c2793fb440bb24e/transformed/play-services-auth-api-phone-18.0.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/1b00d11949c520d44b84dd0c0b4c3153/transformed/play-services-auth-base-18.0.4-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/11f7d656a01fbaea5dcf00221542c8f6/transformed/play-services-fido-20.0.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/078d0022bb6f79af2dd2275b4c80c20c/transformed/firebase-firestore-ktx-24.4.5-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/cf41380eaadb397f43f4541d61f3a577/transformed/firebase-firestore-24.4.5-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/864e8ac586689724b1ddfdd89615b881/transformed/firebase-database-collection-18.0.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/c1551680e1ea6666eac64120af584182/transformed/firebase-appcheck-interop-16.1.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/840ab8e57d5928df448455ed9c6a7a3f/transformed/play-services-safetynet-17.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/4ecb09bad8e12b7ea75a26c147fdfa3c/transformed/play-services-base-18.0.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/a90c054cb73967723fba29fc3294e096/transformed/firebase-common-ktx-20.3.2-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/7ecb9e64b2a3a0ae516cee0889287170/transformed/firebase-auth-interop-20.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/8e3b72fa9865c803f4e3c3af39924f8f/transformed/firebase-common-20.3.2-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/50a7cff6ec412930f4601effaca7600d/transformed/appcompat-resources-1.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/98cd6f435cf2833b5d1194bc11394f57/transformed/drawerlayout-1.1.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/2b0554056b091079875832ec0d693cc8/transformed/coordinatorlayout-1.1.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/b93d46208db1aa8636199167413a9b33/transformed/dynamicanimation-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/ea2b3281e4965bb5ea392922c28ca7f8/transformed/transition-1.2.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/4e281dc3d2e329b231a24645e7e7256c/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/d9a5cc1c8612c1b92ab0ce7e66f5d818/transformed/vectordrawable-1.1.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/0539364d2d3ce40879b99d4584b1d453/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/ad8445ce91f0e93af115b032dc831bfb/transformed/loader-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/3ec92457e322c13bec62e60e1282d931/transformed/recyclerview-1.1.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/3f38edb104e6ac660e2c2a235fb93d75/transformed/viewpager-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/008b489d326f9cd1d4e038a791012c1f/transformed/slidingpanelayout-1.2.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/ad1bc55a3a1620764965e537451542e2/transformed/customview-1.1.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/d50d1be816eac4c84fafc621f74b175b/transformed/browser-1.4.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/fd94492ba9fcef15d95f1380d2f40e1c/transformed/core-1.9.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/c56715d51e449267f5859ed6eb16c047/transformed/navigation-common-ktx-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/475369cde4f9d5bbe40ed0bd84c4a50c/transformed/navigation-common-2.5.3-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/d129f210a4e803ff44c055513a6ada9b/transformed/lifecycle-livedata-core-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/68ab7c4962ef148b13b4b363507066f8/transformed/lifecycle-runtime-ktx-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/51f3abead48160b0e021700644143f3b/transformed/lifecycle-viewmodel-savedstate-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/efcbfb7f123002c2fecdc0e9718317ba/transformed/lifecycle-viewmodel-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/76278fe03959f8df37d721f81bcdf383/transformed/core-1.5.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/0ff2d0db3829fadc74902aaa8e25065c/transformed/navigation-ui-ktx-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/3b94903410a9e726d114290ba28d75ee/transformed/navigation-ui-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/98e9af913b502777fa866c3bbb885547/transformed/material-1.8.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/9a0e51d6327fb0cb8ae49df763a78b4b/transformed/appcompat-1.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/88922cdbc89c571d0c74efda9927bf3b/transformed/hilt-android-2.45-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/61f9499f63b2b5e0a3fffc502b613629/transformed/shimmer-0.5.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/4ee3ebebf990a30d1a537be304b8ef00/transformed/navigation-fragment-ktx-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/e98cf593df03fcafa6e4ceaacb3e0a7f/transformed/navigation-fragment-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/2c0ac3069fac3e1a336d4c4867273e99/transformed/fragment-ktx-1.5.6-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/e5c1cd6eb5bd14e66af7ae0d7f5488eb/transformed/navigation-runtime-ktx-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/754aa7a253d902f4ec4c5985b2b5bbda/transformed/navigation-runtime-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/b8ad194d3bfea03149d9277cfee85c4b/transformed/play-services-auth-20.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/348daae5bbbdac9dcf4ae4dc658fd231/transformed/viewpager2-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6ae1861d6b5b6984ec71d49fd3b9cf10/transformed/firebase-firestore-ktx-24.4.5-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ca521bdf95438cc4a16f169b7b972411/transformed/firebase-auth-ktx-21.2.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/8316acc11f356eddf2facea2326ef9c2/transformed/firebase-auth-21.2.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/36f2631151275ccb614ca95c14909d2d/transformed/play-services-auth-api-phone-18.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/b8c0904697fa9a6b62bac03f4a59a76b/transformed/play-services-auth-base-18.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/653ec48aee271754b3b797fe61e47c5b/transformed/firebase-common-ktx-20.3.2-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/9ed9e105ee89ba7d6e7452540d993289/transformed/firebase-firestore-24.4.5-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/9e7424f4d30a1e9b7cc36c269ae10b5c/transformed/firebase-appcheck-interop-16.1.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/042ec15d86ecfea36b6a2f75ac1264ee/transformed/firebase-auth-interop-20.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/c81f9965f5c7db9317e0512d764f3c7a/transformed/firebase-common-20.3.2-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6327159cfbda7e69462603607ad956b0/transformed/appcompat-resources-1.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/f9b8c56c53270a270cba713a7bdab5b7/transformed/drawerlayout-1.1.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/87ebe391358861b6f54b4daead453f1f/transformed/coordinatorlayout-1.1.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/87447fe323df66b8f770b52c900ac2fd/transformed/dynamicanimation-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/295d9adcda3c9121b78755ac627ca989/transformed/transition-1.2.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ed97f00ae8789b720eeacf0767491442/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/4e528cc5dbc267841c6bde6791a38073/transformed/vectordrawable-1.1.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/c00381511c310ec074ab78b8b6a0a421/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/24d044eb0e73af05f09a41c041b638d5/transformed/loader-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/df0fb4ae0f19ed8fa855dbf95469e83a/transformed/recyclerview-1.1.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6845fd2c308d7d00459c039c0c34d7fe/transformed/viewpager-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/60d1304d7189b2e9cc8021a2654af03e/transformed/slidingpanelayout-1.2.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/a57d0860c12f47223db5a4d2744a8068/transformed/customview-1.1.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/983e618dd28431b6e7916242ed5117ab/transformed/firebase-database-collection-18.0.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/dede3fe58bb5c897f85dc328f1ccc91f/transformed/play-services-safetynet-17.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/7612de5fb541ac0af770a71eb1ad6126/transformed/play-services-base-18.0.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6c9ffd29fc15f20c0785cbf5b1bf5e68/transformed/browser-1.4.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/84c18f2e17913b6743a61a66ba30f988/transformed/core-1.9.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/2a002a5205aa0e79d750d03b4b20d351/transformed/navigation-common-ktx-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/be69de5123e7d9cedeeabef6bd123a45/transformed/navigation-common-2.5.3-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6d9fdfa6629dfbc04a04bd2412a84a60/transformed/lifecycle-livedata-core-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/576b15c241d775995af51823a2c4a698/transformed/lifecycle-runtime-ktx-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/f262d9a44025fadbaf77c5c1fc1adcb9/transformed/lifecycle-viewmodel-savedstate-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/37f7779ae51171e72f77cd263864bf4d/transformed/lifecycle-viewmodel-2.6.1-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.1/10f354fdb64868baecd67128560c5a0d6312c495/lifecycle-common-2.6.1.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/19bef6473f697eb614ca108cef4bb4e0/transformed/lifecycle-livedata-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/1a890f119c61172586b18ad0a465f6e0/transformed/lifecycle-livedata-core-ktx-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/bb0c6e26c2df80d4139a78c39e1bccbd/transformed/lifecycle-runtime-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/9feb3e9cb9ddf9e335d39c5f91eae614/transformed/lifecycle-runtime-testing-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/d2028734dd0a9c66e2730d85824dd7b4/transformed/lifecycle-livedata-ktx-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/2caee937bff9dc2b04940dd345a4835e/transformed/lifecycle-viewmodel-ktx-2.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/c633ce15f1cdfd349f767c0f3afbb8cf/transformed/recaptcha-18.0.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/04db2bec22471334475281d102d1f2c6/transformed/lifecycle-livedata-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ec7827b9f7bf006d8888297e7ee8f3d0/transformed/lifecycle-livedata-core-ktx-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/0341aef9507cf0d75126eddfe3e88955/transformed/lifecycle-runtime-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/c8d6dadf47eecfd4910c5c7b025bf9ba/transformed/lifecycle-runtime-testing-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6f4d4b5fa8e95835cf7320ca71f35bcd/transformed/lifecycle-livedata-ktx-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ccd5716c2c8951cdd94af06b65d28cbf/transformed/lifecycle-viewmodel-ktx-2.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ccc3be77c9a9e5d60a9702d090929bff/transformed/recaptcha-18.0.1-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4/f955fc8b2ad196e2f4429598440e15f7492eeb2b/kotlinx-coroutines-android-1.6.4.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/b0ee8537a5507a9b9b3477663406c529/transformed/datastore-preferences-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/3bf4aa2c268a5cc2b51a328fde4310c0/transformed/datastore-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/8d55ffbd303a51a0ef0c3751732a417e/transformed/datastore-preferences-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/c581fada876ec21ccab57bf2fbe055ff/transformed/datastore-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/androidx.datastore/datastore-preferences-core/1.0.0/403f64499b9a8994f5f7010329ddd1ee5c919ed5/datastore-preferences-core-1.0.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/androidx.datastore/datastore-core/1.0.0/91b04fb657294e2906d95dce6a9e5a851f6125c1/datastore-core-1.0.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/2c997cd1c0ef33f3e751d3831929aeff1390cb30/kotlinx-coroutines-core-jvm-1.6.4.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-play-services/1.6.4/e8e5e0dbe20eadc35a0eb112bcc1b2089768c906/kotlinx-coroutines-play-services-1.6.4.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/133624d32c3819c97e4b842b97bc5ada/transformed/integrity-1.0.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/d69f7bffb0dee7b86ed7800f75067e4f/transformed/play-services-tasks-18.0.2-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/eff87be05486769b7202ab564ea323ba/transformed/play-services-basement-18.2.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/b44e19ce5ff9450c5aefb2d46e7920b6/transformed/fragment-1.5.6-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/24a5d883561b0cf30c1d98bc93f36289/transformed/activity-1.7.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/02ac96287d365762a9622e603f3af1a0/transformed/activity-ktx-1.7.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/541fefb44f92bc145a5261c2dee3d22c/transformed/core-ktx-1.9.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/8759cb5ab653445bbb04f34230eeb7e4/transformed/storage-1.4.2-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/68e05ebbf0b9da718552b782d35317c8/transformed/monitor-1.6.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/8a393b206c92e78efa48019f390e5c5c/transformed/annotation-1.0.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/8d58a6c2a77875576932e8ab08ecbd41/transformed/cursoradapter-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/2030591fddff230bb4ebbe87ed727b59/transformed/savedstate-ktx-1.2.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/124a604ec9b67549c029f75d63870202/transformed/savedstate-1.2.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/45e1573b9b501ae016636ab730716151/transformed/cardview-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/69f34331ca7b1c2eb0962ae0009c8dad/transformed/firebase-components-17.1.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/573c29f939b64cb8e72471ef5cf1e5c5/transformed/integrity-1.0.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ac4dfef9c4f7985044321f76ce4afa05/transformed/play-services-tasks-18.0.2-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/c23d8650b359b7de6c7b976401562873/transformed/play-services-basement-18.1.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/79d12fe85af64e7d67a932f063deaba3/transformed/fragment-1.5.6-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/87fae6f61cce22db3bb33512ad84dd7d/transformed/activity-1.7.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/e448f6f578a7eba60c13f2917965c48d/transformed/activity-ktx-1.7.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/8adc387810ed95d4cf7b191decb84528/transformed/core-ktx-1.9.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/4a877b529df2164db7546d15027d652e/transformed/storage-1.4.2-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/31b34b71b67594cb39a74c44532e8bb3/transformed/monitor-1.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/4f669631c57e9031e149c428aa0fdd98/transformed/annotation-1.0.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/566373f5cc68c162486c1d7bdf5bc21a/transformed/cursoradapter-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/08e1361404d2fe32836da14f0070cdd1/transformed/savedstate-ktx-1.2.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/1a8dd9258566ad938b1728fc8b498adc/transformed/savedstate-1.2.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/905aceef7b7b20ba904046e278763f0c/transformed/cardview-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/0baed46811274ebe526a252bc39eb062/transformed/firebase-components-17.1.0-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/2996db60d3887c2b5d1ecf3d20dd53f0/transformed/versionedparcelable-1.1.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/dcf2c084485cda97c99b7d536a55f615/transformed/versionedparcelable-1.1.1-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/androidx.collection/collection-ktx/1.1.0/f807b2f366f7b75142a67d2f3c10031065b5168/collection-ktx-1.1.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/6d8068530c7d379c3138d08d7a5775e0/transformed/core-runtime-2.2.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/0f8120cb78b66e746c5e86842192e061/transformed/core-runtime-2.2.0-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/dadb19b6b3943ee94fd29660b96bb864/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/b97767076f31e8d3d2457a76c901d69e/transformed/interpolator-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/7767d1a05a2dc712ac4de3baa00bc7c0/transformed/documentfile-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/5467316af4b881ae87bcf6dbebdc7f0d/transformed/print-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/851bd0d172094795c234262e6f7a54fd/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/4305a60949b59f00d34dbe535099d5d0/transformed/interpolator-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/dbfcabd3d2f83f2a57691aef9681346d/transformed/documentfile-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/96729078eb8775c2ba7d2334a58836d4/transformed/print-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/androidx.annotation/annotation/1.5.0/857678d6b4ca7b28571ef7935c668bdb57e15027/annotation-1.5.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-moshi/2.9.0/db0979801926e6d39bc2478736145f9761c3e034/converter-moshi-2.9.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.9.0/d8fdfbd5da952141a665a403348b74538efc05ff/retrofit-2.9.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/4.10.0/ae7524eec42d4ab0c3a7cb93da010cf9bcc5007c/logging-interceptor-4.10.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.10.0/cd63657ac15770ed1420647154c9f44645533bef/okhttp-4.10.0.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/ef044dbcefb64832e0ffd0d92fe6da08/transformed/epoxy-4.6.4-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/6e4b0221ae6534a56c0bbf8f72889fd0/transformed/core-splashscreen-1.0.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/40443136e78cd8e2b3607667f1650089/transformed/timber-5.0.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/120153998379a93b991ef7006aaf2302/transformed/annotation-experimental-1.3.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ecceb0fe2d3f42e9fc4b9c267277bff9/transformed/epoxy-4.6.4-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/85dc49565b6e92af14365a8e5c9d8776/transformed/core-splashscreen-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/c8198332dbe8d67159230dd4b4599b86/transformed/timber-5.0.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/23c5f53c165ce0bbb219745efb001583/transformed/annotation-experimental-1.3.0-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.squareup.moshi/moshi-kotlin/1.14.0/f784be7c3766768da9fc8aedf5e8bd0b623386f1/moshi-kotlin-1.14.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.7.0/e660b0079fdaf744dc9cc7f6f3aa3c761ec839b0/kotlin-reflect-1.7.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.10/6d5560a229477df9406943d5feda5618e98eb64c/kotlin-stdlib-1.8.10.jar</arg>
@@ -128,28 +127,28 @@
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.0.0/ab5a73fa2ccb4a36b0b5c69fe10b16d0255bcf8/okio-jvm-3.0.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.10/a61b182458550492c12aee66157d7b524a63a5ec/kotlin-stdlib-common-1.8.10.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/org.jetbrains/annotations/20.1.0/2fcd1f3225bca0c4a7bc931142076f8c1e80993f/annotations-20.1.0.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/96cc168739e994c8344048dd3cbba76c/transformed/tracing-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/8452011ac14650a926d2c1f2a282a476/transformed/tracing-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.dagger/hilt-core/2.45/fa01d9cf7e908715668b6a946f35e03800d60bc7/hilt-core-2.45.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.52.1/16726293bd4430fab8deb37b1ea2ddf8e69b85de/grpc-stub-1.52.1.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.52.1/e50372c825b3b60a9c1c83895a8ac2209578260b/grpc-protobuf-lite-1.52.1.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/io.grpc/grpc-okhttp/1.52.1/aeef45c692943d6e5b5d6267dc826f3cec770437/grpc-okhttp-1.52.1.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/aa7f47aa6fb1e6481d4ae9984c17ed91/transformed/grpc-android-1.52.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ffd9ca74b4e506a259684f42dcfe4ca1/transformed/grpc-android-1.52.1-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/io.grpc/grpc-core/1.52.1/c80b4701b0bef206b7208f4d3d941b21b527a311/grpc-core-1.52.1.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/io.grpc/grpc-api/1.52.1/250130924e11e3a0dfb5f508130940a1729d497c/grpc-api-1.52.1.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.guava/guava/31.1-android/9222c47cc3ae890f07f7c961bbb3cb69050fe4aa/guava-31.1-android.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/6b35f326ba80c40a2e0aa75ed1e0f2c6/transformed/espresso-idling-resource-3.5.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/770076d7570f07b92e46d4485c52bbba/transformed/espresso-idling-resource-3.5.1-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.dagger/dagger/2.45/f7e0def41c2dbb7f79613003ae4ee49f65dc2759/dagger-2.45.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.firebase/firebase-annotations/16.2.0/ba0806703ca285d03fa9c888b5868f101134a501/firebase-annotations-16.2.0.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/7634505000ec1abee15858ff1b607cb9/transformed/constraintlayout-2.1.4-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/5302dcbdd7afda549035511bff85ca45/transformed/AppIntro-6.2.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/7a5bc03d31b6a6249fd2994c94dae801/transformed/dagger-lint-aar-2.45-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/779bc2a66f46e1df6a6dbc73522e797c/transformed/constraintlayout-2.1.4-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6c518d4f224c9e1891ce2f96172c2d9a/transformed/AppIntro-6.2.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/45dbeca1a6c8044bdaa3c649ef8e2146/transformed/dagger-lint-aar-2.45-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.airbnb.android/epoxy-annotations/4.6.4/1f8a0efadf44917b19bc3701aeba39d676e30969/epoxy-annotations-4.6.4.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.14.0/9f01b3654d3c536859705f09f8d267ee977b4004/error_prone_annotations-2.14.0.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/46ff07a7ac48113ef93f4c5c2d6f4ee4/transformed/protolite-well-known-types-18.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6330f76547a1aac7f59b56a77c48bf9b/transformed/protolite-well-known-types-18.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.protobuf/protobuf-javalite/3.21.7/82b692be08383107fd1c6d44474b56df411edd27/protobuf-javalite-3.21.7.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/io.grpc/grpc-context/1.52.1/4da95b74359b2dfdd5d85eee3b4682a3e720261c/grpc-context-1.52.1.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar</arg>
@@ -198,7 +197,7 @@
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/demo/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/src/demoDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/demo/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/demo/debug" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/demo/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/src/demoDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/google-services/demo/debug;file://$MODULE_DIR$/../../../app/build/generated/res/rs/demo/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/demo/debug" />
         <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDemo/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/src/androidTestDemoDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/demo/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/androidTest/demo/debug" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
@@ -338,9 +337,9 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth-ktx:21.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth:21.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.browser:browser:1.4.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-api-phone:18.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-api-phone:18.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-base:18.0.1@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-basement:18.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-basement:18.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-tasks:18.0.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-safetynet:17.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.play:integrity:1.0.1@aar" level="project" />
@@ -355,9 +354,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-database-collection:18.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-appcheck-interop:16.1.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-android:1.52.1@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth:20.5.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-base:18.0.4@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-fido:20.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth:20.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-base:18.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.6.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment:2.5.3@aar" level="project" />

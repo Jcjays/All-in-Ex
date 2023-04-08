@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.shimmer:shimmer:0.5.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/da52af97c34adac2424b7978b90376fa/transformed/shimmer-0.5.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/71e69db78da68c2f606cd98525089506/transformed/shimmer-0.5.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/da52af97c34adac2424b7978b90376fa/transformed/shimmer-0.5.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/da52af97c34adac2424b7978b90376fa/transformed/shimmer-0.5.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/da52af97c34adac2424b7978b90376fa/transformed/shimmer-0.5.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/71e69db78da68c2f606cd98525089506/transformed/shimmer-0.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/71e69db78da68c2f606cd98525089506/transformed/shimmer-0.5.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/71e69db78da68c2f606cd98525089506/transformed/shimmer-0.5.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/modules-2/files-2.1/com.facebook.shimmer/shimmer/0.5.0/8f2cac7f46a15f00f1ee997fe744d0b16677cc30/shimmer-0.5.0-javadoc.jar!/" />

@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.transition:transition:1.4.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/7d9c21b6e574b785b9329a55c399463f/transformed/transition-1.4.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/78c7a01647e36ce20d29ad82c3c488bf/transformed/transition-1.4.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/7d9c21b6e574b785b9329a55c399463f/transformed/transition-1.4.1/res" />
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/7d9c21b6e574b785b9329a55c399463f/transformed/transition-1.4.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/7d9c21b6e574b785b9329a55c399463f/transformed/transition-1.4.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/78c7a01647e36ce20d29ad82c3c488bf/transformed/transition-1.4.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/78c7a01647e36ce20d29ad82c3c488bf/transformed/transition-1.4.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/78c7a01647e36ce20d29ad82c3c488bf/transformed/transition-1.4.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

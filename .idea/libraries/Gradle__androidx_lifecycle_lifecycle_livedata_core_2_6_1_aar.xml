@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/c901fceec95707ea9828169aaf7a9a34/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/c901fceec95707ea9828169aaf7a9a34/transformed/lifecycle-livedata-core-2.6.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/c901fceec95707ea9828169aaf7a9a34/transformed/lifecycle-livedata-core-2.6.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3abdf77c78ca0d3dbd3205b924e8053e/transformed/lifecycle-livedata-core-2.6.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3abdf77c78ca0d3dbd3205b924e8053e/transformed/lifecycle-livedata-core-2.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JDK/caches/transforms-3/3abdf77c78ca0d3dbd3205b924e8053e/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

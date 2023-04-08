@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_extrabold"
         android:text="@string/allinex"
-        android:textSize="30sp"
+        android:textSize="40sp"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -37,7 +37,7 @@
         style="@style/OutlineButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:text="@string/google"
         app:iconPadding="0dp"
         app:icon="@drawable/ic_google"
