@@ -20,7 +20,6 @@ import com.adonis.base.extensions.showShortToast
 import com.adonis.base.util.UserPreferences
 import com.google.android.gms.auth.api.identity.BeginSignInRequest
 import com.google.android.gms.auth.api.identity.Identity
-import com.google.firebase.auth.GoogleAuthProvider.getCredential
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -37,21 +36,6 @@ class Dashboard : BaseFragment<FragmentDashboardBinding>() {
 
     private val oneTapClient by lazy { Identity.getSignInClient(requireActivity()) }
 
-    private val signInLauncher =
-        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {
-            if (it.resultCode == Activity.RESULT_OK) {
-                oneTapClient.runCatching {
-                    getSignInCredentialFromIntent(it.data)
-                }.onSuccess { signInCredential ->
-                    val token = signInCredential.googleIdToken
-                    val googleCredential = getCredential(token, null)
-                    viewModel.firebaseSignInWithGoogle(googleCredential)
-                }.onFailure {
-                    requireActivity().showShortToast("No google account signed-in detected.")
-                }
-            }
-        }
-
     override val bindingInflater: (LayoutInflater) -> FragmentDashboardBinding
         get() = FragmentDashboardBinding::inflate
 
@@ -59,6 +43,14 @@ class Dashboard : BaseFragment<FragmentDashboardBinding>() {
         val actionBar = (requireActivity() as AppCompatActivity).supportActionBar
         actionBar?.hide()
 
+        initObservables()
+        initClickable()
+
+
+    }
+
+    private fun initObservables() {
+        //on-boarding logic
         viewLifecycleOwner.lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.CREATED) {
                 userPreferences.getIsUserNew.collectLatest { isUserNew ->
@@ -68,7 +60,9 @@ class Dashboard : BaseFragment<FragmentDashboardBinding>() {
                 }
             }
         }
+    }
 
+    private fun initClickable() {
         binding.googleLoginButton.setOnClickListener {
             initGoogleSignInRequest()
         }
@@ -89,10 +83,25 @@ class Dashboard : BaseFragment<FragmentDashboardBinding>() {
                 val intentSender = task.result.pendingIntent.intentSender
                 val intentSenderRequest = IntentSenderRequest.Builder(intentSender).build()
                 signInLauncher.launch(intentSenderRequest)
-            }else{
+            } else {
                 Timber.e(task.exception)
                 requireActivity().showShortToast("No google accounts detected in the device.")
             }
         }
     }
+
+    private val signInLauncher =
+        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {
+            if (it.resultCode == Activity.RESULT_OK) {
+                oneTapClient.runCatching {
+                    getSignInCredentialFromIntent(it.data)
+                }.onSuccess { signInCredential ->
+                    //if success proceed with firebase authentication.
+                    viewModel.firebaseSignInWithGoogle(signInCredential)
+                }.onFailure {
+                    requireActivity().showShortToast("No google account signed-in detected.")
+                }
+            }
+        }
+
 }
