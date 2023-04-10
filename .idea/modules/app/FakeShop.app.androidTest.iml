@@ -27,7 +27,15 @@
                 <arg>C:/JDK/caches/transforms-3/0ff2d0db3829fadc74902aaa8e25065c/transformed/navigation-ui-ktx-2.5.3-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/3b94903410a9e726d114290ba28d75ee/transformed/navigation-ui-2.5.3-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/98e9af913b502777fa866c3bbb885547/transformed/material-1.8.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/a96a1d1af739e4dafa729316db7aaf76/transformed/facebook-android-sdk-16.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/3e616a78829a92641a53137073bf4481/transformed/facebook-login-16.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/b3577bcf9b5a38f4cabb8320fd7ab2dc/transformed/facebook-gamingservices-16.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/76c4be3ee164ea48a3abbcdc210218bd/transformed/facebook-share-16.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/0e4a3cedd7cead5a3ab8cdb5bd73dcca/transformed/facebook-common-16.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/9a0e51d6327fb0cb8ae49df763a78b4b/transformed/appcompat-1.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/ca521bdf95438cc4a16f169b7b972411/transformed/firebase-auth-ktx-21.2.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/8316acc11f356eddf2facea2326ef9c2/transformed/firebase-auth-21.2.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/2b47ff223e129dd8682276d154e37f16/transformed/browser-1.5.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/88922cdbc89c571d0c74efda9927bf3b/transformed/hilt-android-2.45-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/61f9499f63b2b5e0a3fffc502b613629/transformed/shimmer-0.5.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/4ee3ebebf990a30d1a537be304b8ef00/transformed/navigation-fragment-ktx-2.5.3-api.jar</arg>
@@ -38,8 +46,6 @@
                 <arg>C:/JDK/caches/transforms-3/b8ad194d3bfea03149d9277cfee85c4b/transformed/play-services-auth-20.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/348daae5bbbdac9dcf4ae4dc658fd231/transformed/viewpager2-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/6ae1861d6b5b6984ec71d49fd3b9cf10/transformed/firebase-firestore-ktx-24.4.5-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/ca521bdf95438cc4a16f169b7b972411/transformed/firebase-auth-ktx-21.2.0-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/8316acc11f356eddf2facea2326ef9c2/transformed/firebase-auth-21.2.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/36f2631151275ccb614ca95c14909d2d/transformed/play-services-auth-api-phone-18.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/b8c0904697fa9a6b62bac03f4a59a76b/transformed/play-services-auth-base-18.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/653ec48aee271754b3b797fe61e47c5b/transformed/firebase-common-ktx-20.3.2-api.jar</arg>
@@ -48,12 +54,17 @@
                 <arg>C:/JDK/caches/transforms-3/042ec15d86ecfea36b6a2f75ac1264ee/transformed/firebase-auth-interop-20.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/c81f9965f5c7db9317e0512d764f3c7a/transformed/firebase-common-20.3.2-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/6327159cfbda7e69462603607ad956b0/transformed/appcompat-resources-1.6.1-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/a5d476889b4f55fb3313812009782657/transformed/legacy-support-v4-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/2be90c248657d5a0e10af5db55d4b89c/transformed/legacy-support-core-ui-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/f9b8c56c53270a270cba713a7bdab5b7/transformed/drawerlayout-1.1.1-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/87ebe391358861b6f54b4daead453f1f/transformed/coordinatorlayout-1.1.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/87447fe323df66b8f770b52c900ac2fd/transformed/dynamicanimation-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/295d9adcda3c9121b78755ac627ca989/transformed/transition-1.2.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/ed97f00ae8789b720eeacf0767491442/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/4e528cc5dbc267841c6bde6791a38073/transformed/vectordrawable-1.1.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/6ee01b4924e0aaa119debb5c5a796f97/transformed/facebook-applinks-16.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/5ec4d1832038d6215b6b0fa2449533b4/transformed/facebook-messenger-16.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/7d69e4a72294dc8bbf5348221ad3083c/transformed/facebook-core-16.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/c00381511c310ec074ab78b8b6a0a421/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/24d044eb0e73af05f09a41c041b638d5/transformed/loader-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/df0fb4ae0f19ed8fa855dbf95469e83a/transformed/recyclerview-1.1.0-api.jar</arg>
@@ -63,7 +74,9 @@
                 <arg>C:/JDK/caches/transforms-3/983e618dd28431b6e7916242ed5117ab/transformed/firebase-database-collection-18.0.1-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/dede3fe58bb5c897f85dc328f1ccc91f/transformed/play-services-safetynet-17.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/7612de5fb541ac0af770a71eb1ad6126/transformed/play-services-base-18.0.1-api.jar</arg>
-                <arg>C:/JDK/caches/transforms-3/6c9ffd29fc15f20c0785cbf5b1bf5e68/transformed/browser-1.4.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/e5e68948e68acb8e075b9f7f7db6c1da/transformed/media-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/f1811734c1d078a66d8466939ddb8cc6/transformed/swiperefreshlayout-1.0.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/18b0d83baf21798289a1d077c414aa82/transformed/asynclayoutinflater-1.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/84c18f2e17913b6743a61a66ba30f988/transformed/core-1.9.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/2a002a5205aa0e79d750d03b4b20d351/transformed/navigation-common-ktx-2.5.3-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/be69de5123e7d9cedeeabef6bd123a45/transformed/navigation-common-2.5.3-api.jar</arg>
@@ -92,6 +105,7 @@
                 <arg>C:/JDK/caches/transforms-3/79d12fe85af64e7d67a932f063deaba3/transformed/fragment-1.5.6-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/87fae6f61cce22db3bb33512ad84dd7d/transformed/activity-1.7.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/e448f6f578a7eba60c13f2917965c48d/transformed/activity-ktx-1.7.0-api.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/a729f02d3b25b5d2ed1b525a032be706/transformed/facebook-bolts-16.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/8adc387810ed95d4cf7b191decb84528/transformed/core-ktx-1.9.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/4a877b529df2164db7546d15027d652e/transformed/storage-1.4.2-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/31b34b71b67594cb39a74c44532e8bb3/transformed/monitor-1.6.1-api.jar</arg>
@@ -147,6 +161,9 @@
                 <arg>C:/JDK/caches/transforms-3/6c518d4f224c9e1891ce2f96172c2d9a/transformed/AppIntro-6.2.0-api.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/45dbeca1a6c8044bdaa3c649ef8e2146/transformed/dagger-lint-aar-2.45-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.airbnb.android/epoxy-annotations/4.6.4/1f8a0efadf44917b19bc3701aeba39d676e30969/epoxy-annotations-4.6.4.jar</arg>
+                <arg>C:/JDK/caches/transforms-3/d9c944b74b6562491dbc60233c57ff47/transformed/installreferrer-1.0-api.jar</arg>
+                <arg>C:/JDK/caches/modules-2/files-2.1/com.google.zxing/core/3.3.3/b640badcc97f18867c4dfd249ef8d20ec0204c07/core-3.3.3.jar</arg>
+                <arg>C:/JDK/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.8/431fc3cbc0ff81abdbfde070062741089c3ba874/gson-2.8.8.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.14.0/9f01b3654d3c536859705f09f8d267ee977b4004/error_prone_annotations-2.14.0.jar</arg>
                 <arg>C:/JDK/caches/transforms-3/6330f76547a1aac7f59b56a77c48bf9b/transformed/protolite-well-known-types-18.0.0-api.jar</arg>
                 <arg>C:/JDK/caches/modules-2/files-2.1/com.google.protobuf/protobuf-javalite/3.21.7/82b692be08383107fd1c6d44474b56df411edd27/protobuf-javalite-3.21.7.jar</arg>
@@ -266,6 +283,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-protobuf-lite:1.52.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-okhttp:1.52.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-core:1.52.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.zxing:core:3.3.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.8.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:4.10.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio-jvm:3.0.0" level="project" />
@@ -336,7 +355,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth-ktx:21.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth:21.2.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.browser:browser:1.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.browser:browser:1.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-api-phone:18.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-base:18.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-basement:18.1.0@aar" level="project" />
@@ -356,10 +375,25 @@
     <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-android:1.52.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth:20.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-base:18.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-android-sdk:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-core:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-bolts:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.installreferrer:installreferrer:1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-common:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.media:media:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-login:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-share:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-applinks:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-messenger:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-gamingservices:16.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.6.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment:2.5.3@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui-ktx:2.5.3@aar" level="project" />

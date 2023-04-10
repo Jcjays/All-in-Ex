@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/dashboard"
-        android:name="com.adonis.base.arch.ui.login.Dashboard"
+        android:name="com.adonis.allinex.arch.ui.login.LoginFragment"
         android:label="fragment_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_login" />
 
 </navigation>
