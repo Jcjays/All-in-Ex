@@ -7,24 +7,24 @@ import android.view.View
 import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isVisible
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
 import com.adonis.allinex.R
 import com.adonis.allinex.arch.ui.base.BaseFragment
 import com.adonis.allinex.arch.ui.onboarding.OnboardingActivity
-import com.adonis.allinex.arch.ui.viewmodels.SampleViewModel
+import com.adonis.allinex.arch.ui.viewmodels.AuthViewModel
 import com.adonis.allinex.databinding.FragmentLoginBinding
 import com.adonis.allinex.extensions.showShortToast
 import com.adonis.allinex.util.UserPreferences
-import com.facebook.CallbackManager
-import com.facebook.FacebookCallback
-import com.facebook.FacebookException
+import com.facebook.*
 import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult
 import com.google.android.gms.auth.api.identity.BeginSignInRequest
-import com.google.android.gms.auth.api.identity.Identity
+import com.google.android.gms.auth.api.identity.SignInClient
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -38,11 +38,13 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
     @Inject
     lateinit var userPreferences: UserPreferences
 
-    private val viewModel: SampleViewModel by activityViewModels()
+    @Inject
+    lateinit var googleOneTapClient : SignInClient
 
-    private val googleOneTapClient by lazy { Identity.getSignInClient(requireActivity()) }
+    @Inject
+    lateinit var facebookLoginManager : LoginManager
 
-    private val facebookLoginManager by lazy { LoginManager.getInstance() }
+    private val viewModel: AuthViewModel by activityViewModels()
 
     override val bindingInflater: (LayoutInflater) -> FragmentLoginBinding
         get() = FragmentLoginBinding::inflate
@@ -53,7 +55,6 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
 
         initObservables()
         initClickable()
-
 
     }
 
@@ -66,17 +67,36 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
                         OnboardingActivity.startActivity(requireContext())
                     }
                 }
+            }
+        }
 
-                viewModel.firebaseSignInWithGoogleState.collectLatest {
-                    //if true navigate to dashboard
-                    Timber.e(it.data.toString())
+        viewLifecycleOwner.lifecycleScope.launch {
+            repeatOnLifecycle(Lifecycle.State.STARTED){
+                viewModel.firebaseSignInWithGoogleChannel.collectLatest { result ->
+                    binding.loadingState.root.isVisible = result.isLoading
+                    Timber.e("--> ${result.data.toString()}")
+                    if (result.data == true) {
+                        val action = LoginFragmentDirections.actionDashboardToHomeFragment()
+                        findNavController().navigate(action)
+                    }
+
+                    checkIfError(result)
                 }
+            }
+        }
 
-                viewModel.firebaseSignInWithFacebookState.collectLatest {
-                    //if true navigate to dashboard
-                    Timber.e(it.data.toString())
+        viewLifecycleOwner.lifecycleScope.launch{
+            repeatOnLifecycle(Lifecycle.State.STARTED){
+                viewModel.firebaseSignInWithFacebookChannel.collectLatest { result ->
+                    binding.loadingState.root.isVisible = result.isLoading
+
+                    if (result.data == true) {
+                        val action = LoginFragmentDirections.actionDashboardToHomeFragment()
+                        findNavController().navigate(action)
+                    }
+
+                    checkIfError(result)
                 }
-
             }
         }
     }
@@ -129,6 +149,7 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
     /**
      * Callback Handlers | ActivityResultContracts
      */
+
     private val signInLauncher =
         registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {
             if (it.resultCode == Activity.RESULT_OK) {
@@ -138,7 +159,7 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
                     //if success proceed with firebase authentication.
                     viewModel.firebaseSignInWithGoogle(signInCredential)
                 }.onFailure {
-                    requireActivity().showShortToast("No google account signed-in detected.")
+                    requireActivity().showShortToast("No google accounts signed-in detected.")
                 }
             }
         }

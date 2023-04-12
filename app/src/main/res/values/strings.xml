@@ -20,4 +20,7 @@
     <string name="facebook">Facebook</string>
     <string name="apple">Apple</string>
     <string name="firebase_web_client_id">457234146619-f40fff56pc5ejd7fqpjibidm0sjsgu0g.apps.googleusercontent.com</string>
+    <string name="login_via">Login via</string>
+    <string name="or">Or</string>
+    <string name="sign_out">Sign out</string>
 </resources>

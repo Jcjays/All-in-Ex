@@ -2,6 +2,7 @@
 <resources>
 
     <color name="black">#FF000000</color>
+    <color name="loading_background">#66000000</color>
     <color name="white">#FFFFFFFF</color>
 
     <!-- Red -->

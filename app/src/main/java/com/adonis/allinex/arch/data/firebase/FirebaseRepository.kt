@@ -2,10 +2,13 @@ package com.adonis.allinex.arch.data.firebase
 
 import com.adonis.allinex.util.Constants
 import com.adonis.allinex.util.ResponseHandler
+import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult
+import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.android.gms.auth.api.identity.SignInCredential
 import com.google.firebase.auth.FacebookAuthProvider
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.firestore.FieldValue.serverTimestamp
 import com.google.firebase.firestore.FirebaseFirestore
@@ -18,6 +21,8 @@ import javax.inject.Inject
 class FirebaseRepository @Inject constructor(
     private val auth: FirebaseAuth,
     private val db: FirebaseFirestore,
+    private val googleOneTapClient: SignInClient,
+    private val facebookLoginManager: LoginManager,
 ) : FirebaseRepositoryService {
 
     override suspend fun signInUserWithGoogleFirebase(signInCredential: SignInCredential): Flow<ResponseHandler<Boolean>> =
@@ -42,7 +47,7 @@ class FirebaseRepository @Inject constructor(
         }
 
     override suspend fun signInUserWithFacebookFirebase(loginResult: LoginResult): Flow<ResponseHandler<Boolean>> =
-        flow{
+        flow {
             emit(ResponseHandler.Loading())
 
             val token = loginResult.accessToken.token
@@ -53,13 +58,43 @@ class FirebaseRepository @Inject constructor(
             }.onSuccess {
                 val isNewUser = it.additionalUserInfo?.isNewUser ?: false
 
-                if(isNewUser)
+                if (isNewUser)
                     addUserToFireStore()
 
                 emit(ResponseHandler.Success(true))
             }.onFailure {
                 emit(ResponseHandler.Exception(it))
             }
+        }
+
+    override suspend fun signOut(): Flow<ResponseHandler<Boolean>> = flow {
+        emit(ResponseHandler.Loading())
+
+        runCatching {
+            auth.signOut()
+            googleOneTapClient.signOut()
+            facebookLoginManager.logOut()
+        }.onSuccess {
+            emit(ResponseHandler.Success(true))
+        }.onFailure {
+            emit(ResponseHandler.Exception(it))
+        }
+    }
+
+    override suspend fun getCurrentUser(): Flow<ResponseHandler<FirebaseUser>> = flow {
+        emit(ResponseHandler.Loading())
+
+        runCatching {
+            auth.currentUser
+        }.onSuccess { user ->
+            if (user != null)
+                emit(ResponseHandler.Success(user))
+            else
+                emit(ResponseHandler.Error(-1, "Cannot Detect Current User"))
+        }.onFailure {
+            emit(ResponseHandler.Exception(it))
+        }
+
     }
 
     private suspend fun addUserToFireStore() {

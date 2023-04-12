@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOn
 import org.json.JSONException
 import retrofit2.HttpException
+import timber.log.Timber
 import java.io.IOException
 import java.net.SocketTimeoutException
 import java.net.UnknownHostException
@@ -28,7 +29,10 @@ fun Throwable.identifyRetrofitError(): String {
         is IllegalArgumentException -> "Invalid argument passed to API"
         is NullPointerException -> "Response object or one of its fields is null"
         is OutOfMemoryError -> "Out of memory error"
-        else -> return this.message.toString()
+        else -> {
+            Timber.e(this.message)
+            "An unknown error occurred. Please try again later."
+        }
     }
 }
 
@@ -38,7 +42,10 @@ fun Throwable.identifyFirebaseAuthError(): String {
         is FirebaseAuthUserCollisionException -> "User with this email/phone number already exists."
         is FirebaseAuthInvalidUserException -> "This user account has been disabled or deleted."
         is FirebaseAuthRecentLoginRequiredException -> "Authentication state is no longer valid. Please log in again."
-        else -> "An unknown error occurred. Please try again later."
+        else -> {
+            Timber.e(this.message)
+             "An unknown error occurred. Please try again later."
+        }
     }
 }
 

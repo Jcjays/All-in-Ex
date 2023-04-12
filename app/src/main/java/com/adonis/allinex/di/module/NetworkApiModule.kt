@@ -1,4 +1,3 @@
-
 package com.adonis.allinex.di.module
 
 import com.adonis.allinex.arch.data.*
@@ -7,6 +6,8 @@ import com.adonis.allinex.arch.data.firebase.FirebaseRepositoryService
 import com.adonis.allinex.arch.data.retrofit.ApiService
 import com.adonis.allinex.arch.data.retrofit.MainRepository
 import com.adonis.allinex.arch.data.retrofit.MainRepositoryService
+import com.facebook.login.LoginManager
+import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import dagger.Module
@@ -30,8 +31,13 @@ object NetworkApiModule {
     }
 
     @Provides
-    internal fun provideAuthRepositoryService(auth : FirebaseAuth, db : FirebaseFirestore) : FirebaseRepositoryService {
-        return FirebaseRepository(auth, db)
+    internal fun provideAuthRepositoryService(
+        auth: FirebaseAuth,
+        db: FirebaseFirestore,
+        googleOneTapClient: SignInClient,
+        facebookLoginManager: LoginManager,
+    ): FirebaseRepositoryService {
+        return FirebaseRepository(auth, db, googleOneTapClient, facebookLoginManager)
     }
 
 }

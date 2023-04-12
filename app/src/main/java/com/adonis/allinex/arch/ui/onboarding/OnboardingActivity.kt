@@ -45,7 +45,7 @@ class OnboardingActivity : AppIntro2() {
         super.onDonePressed(currentFragment)
         lifecycleScope.launch {
             userPreferences.setIsUserNew(false)
+            finish()
         }
-        finish()
     }
 }
